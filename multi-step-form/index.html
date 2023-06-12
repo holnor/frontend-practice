@@ -2,39 +2,47 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title>Multi Step Form</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <title>Multi Step Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+<div class="card">
+    <div class="container steps-container">
+        <ol>
+            <li><p>step 1</p>
+                <p>your info</p></li>
+            <li><p>step 2</p>
+                <p>select plan</p></li>
+            <li><p>step 3</p>
+                <p>add-ons</p></li>
+            <li><p>step 4</p>
+                <p>summary</p></li>
+        </ol>
+    </div>
+    <div class="container form-container">
+        <h1>Personal info</h1>
+        <p class="description">Please provide your name, email, address, and phone number</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="e.g. +36 30 123 4567" required>
+
+            <input type="submit" value="Next Step" class="btn">
+        </form>
+    </div>
+</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
