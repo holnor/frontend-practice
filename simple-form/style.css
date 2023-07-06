@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    color: white;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: darkblue;
+    background-image: linear-gradient(
+            115deg,
+            rgba(58, 58, 158, 0.8),
+            rgba(136, 136, 206, 0.7)
+    ),
+    url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+fieldset,
+.container {
+    min-width: 400px;
+    padding: 2rem;
+}
+
+input,
+textarea,
+select {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    min-width: 90%;
+}
+
+input {
+    height: 20px;
+    min-width: 90%;
+    padding: 0.5rem;
+}
+
+.form-control.select-nationality {
+    height: 40px;
+    min-width: 93.5%;
+    padding: 0.5rem;
+}
+
+
+input[type="checkbox"] {
+    min-width: auto;
+    flex: none;
+    width: 20px;
+}
+
+input[type="file"] {
+    padding-left: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.gender {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.label {
+    padding-left: 1rem;
+}
+
+.select-stack {
+    min-width: 90%;
+    min-height: 80px;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+.select-option{
+    font-size: 1rem;
+}
+
+.hobby {
+    margin: 2rem 0;
+}
+
+.label-hobby {
+    margin-bottom: 2rem;
+}
+
+.hobby .chk-option {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.field-terms {
+    padding: 0.5rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.conditions {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.form-group.conditions input[type="checkbox"] {
+margin-right: 1rem;
+}
+
+.link{
+    color: white;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    all: unset;
+    display: block;
+    /*vert-align: middle;*/
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #4f4fc4;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px lightgrey;
+}
+
+.btn:hover{
+    transform: scale(1.01);
+    transition: 100ms ease-in-out;
+}
