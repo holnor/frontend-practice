@@ -47,6 +47,10 @@ fieldset{
     border-radius: 10px;
 }
 
+legend {
+    font-size: 0.8rem;
+}
+
 fieldset,
 .container {
     min-width: 400px;
