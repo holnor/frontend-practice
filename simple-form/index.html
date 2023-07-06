@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Registration Form</h1>
+<form name="registration-form" action="registration-success.html" method="post">
+    <fieldset>
+        <legend>Personal data</legend>
+        <div class="form-group name">
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" class="form-control" required>
+        </div>
+        <div class="form-group name">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" class="form-control" required>
+        </div>
+        <label class="label">Gender:</label>
+        <div class="form-group gender">
+            <div class="radio-option">
+                <input id="male" name="gender" value="male" type="radio" class="input-radio">
+                <label for="male">Male</label>
+            </div>
+            <div class="radio-option">
+                <input id="female" name="gender" value="female" type="radio" class="input-radio">
+                <label for="female">Female</label>
+            </div>
+            <div class="radio-option">
+                <input id="other" name="gender" value="other" type="radio" class="input-radio">
+                <label for="other">Other</label>
+            </div>
+        </div>
+        <div class="form-group dob">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required>
+        </div>
+        <div class="form-group nationality">
+            <label for="nationality">Nationality</label>
+            <select id="nationality" name="nationality" class="form-control select-nationality" required>
+                <option disabled selected value>Please choose one</option>
+                <option class="select-option" value="hu">Hungarian</option>
+                <option class="select-option" value="ro">Romanian</option>
+                <option class="select-option" value="sk">Slovakian</option>
+                <option class="select-option" value="ua">Ukrainian</option>
+            </select>
+        </div>
+        <div class="form-group email">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required/>
+        </div>
+        <div class="form-group number">
+            <label id="contact-number" for="number">Contact Number</label>
+            <input type="tel" name="contact-number" id="number" class="form-control" required/>
+        </div>
+    </fieldset>
+    <div class="container">
+        <div class="form-group password">
+            <label id="password" for="password">Password</label>
+            <input type="password" name="password" class="form-control" required/>
+        </div>
+        <div class="form-group stack">
+            <label for="stack">Stack</label>
+            <select id="stack" name="stack" class="form-control select-stack" multiple required>
+                <option class="select-option" value="java">Java</option>
+                <option class="select-option" value="nodejs">NodeJS</option>
+                <option class="select-option" value="c++">C++</option>
+                <option class="select-option" value="html">HTML</option>
+                <option class="select-option" value="css">CSS</option>
+                <option class="select-option" value="javascript">JavaScript</option>
+            </select>
+        </div>
+        <div class="form-group bio">
+            <label id="bio" for="bio">Biography</label>
+            <textarea name="bio" cols="30" rows="10" required></textarea>
+        </div>
+        <div class="formgroup hobby">
+            <label class="label label-hobby">Your Hobbies</label>
+            <div class="chk-option">
+                <input type="checkbox" name="reading" id="reading">
+                <label for="reading">Reading</label>
+            </div>
+            <div class="chk-option">
+                <input type="checkbox" name="running" id="running">
+                <label for="running">Running</label>
+            </div>
+            <div class="chk-option">
+                <input type="checkbox" name="hiking" id="hiking">
+                <label for="hiking">Hiking</label>
+            </div>
+            <div class="chk-option">
+                <input type="checkbox" name="swimming" id="swimming">
+                <label for="swimming">Swimming</label>
+            </div>
+            <div class="chk-option">
+                <input type="checkbox" name="else" id="else">
+                <label for="else">Other</label>
+            </div>
+        </div>
+        <div class="form-group profile-img">
+            <label id="pic" for="pic">Profile Picture</label>
+            <input type="file" name="pic">
+        </div>
+    </div>
+    <fieldset class="field-terms">
+        <legend>Terms and Conditions</legend>
+        <div class="form-group conditions">
+            <input type="checkbox" name="terms" id="terms" required>
+            <label for="terms">I accept terms and conditions!</label>
+        </div>
+        <div class="form-group conditions">
+            <input type="checkbox" name="subscribe" id="subscribe" required>
+            <label for="terms">I want to subscribe to the newsletter!</label>
+        </div>
+    </fieldset>
+    <a class="link" href="#">Read terms and conditions</a>
+    <button class="btn" type="submit">Register</button>
+</form>
+
+
+</body>
+</html>
