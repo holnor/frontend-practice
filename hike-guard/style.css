@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #ffffff;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a, a:visited {
+    color: #F7A817;
+}
+
+a:hover {
+    color: #f87557;
+}
+
+input {
+    border-bottom: #F7A817 2px solid;
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+input[type="checkbox"] {
+    accent-color: #F7A817;
+    margin-bottom: 5px;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Inverts the color, changing it to white */
+}
+
+.acceptance {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    min-width: 80%;
+}
+
+.btn {
+    background-color: #F7A817;
+    padding: 0.7rem 2rem;
+    border-radius: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: transform 0.2s ease;
+    margin-top: 2rem;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 18rem;
+    margin-top: 2rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    max-width: 28rem;
+    margin-top: 2rem;
+}
+
+
+h2 {
+    max-width: 25rem;
+    margin-top: 3rem;
+}
+
+.img{
+    align-self: flex-start;
+    padding-left: 5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("resources/hikeguard-background.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-width: 90%;
+    min-height: 90vh;
+    border-radius: 20px;
+    padding: 3rem;
+}
