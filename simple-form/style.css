@@ -43,6 +43,10 @@ form {
     padding-bottom: 5rem;
 }
 
+fieldset{
+    border-radius: 10px;
+}
+
 fieldset,
 .container {
     min-width: 400px;
