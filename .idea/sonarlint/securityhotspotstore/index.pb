@@ -29,8 +29,6 @@ E
 simple-form/style.css,3\f\3f47f18db0024e1138726e2d5f6a425e46a25540
 G
 split-homepage/main.css,4\1\419f3f9319691bfc9a9a644c2021f27c687ee290
-J
-multi-step-form/index.html,b\2\b233ad16ee433d01b8651cefaf2d269ca8b6823d
 F
 travel-blog/index.html,9\6\968f19dfd65117fdbfb4c52f530afe0e8ec0235b
 D

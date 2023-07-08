@@ -39,5 +39,3 @@ E
 travel-blog/script.js,a\8\a8643ac419a606721319b9e1ad77347d06675aab
 G
 split-homepage/main.css,4\1\419f3f9319691bfc9a9a644c2021f27c687ee290
-J
-multi-step-form/index.html,b\2\b233ad16ee433d01b8651cefaf2d269ca8b6823d
