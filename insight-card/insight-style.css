@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+    --dark-blue: hsl(257, 83%, 16%);
+    --desaturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+h1{
+    max-width: 18ch;
+    margin-bottom: 2rem;
+}
+
+.card {
+    display: flex;
+}
+
+.left {
+    background-color: var(--dark-blue);
+    padding: 4rem;
+    display: flex;
+    max-width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.insight {
+    color: var(--soft-violet);
+}
+
+.text{
+    color: var(--transparent-white);
+    max-width: 40ch;
+    line-height: 1.4;
+}
+
+img,
+.right{
+    border-radius: 0 10px 10px 0;
+}
+
+.stats-container{
+    display: flex;
+    margin-top: 4rem;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.num{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.right {
+    width: 500px;
+    background-color: var(--dark-blue);
+    background-image: linear-gradient(hsla(278, 52%, 52%, 0.6), hsla(278, 52%, 52%, 0.6)), url("image-header.jpg");
+    filter: contrast(1.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 400px){
+    .card{
+        flex-direction: column;
+    }
+}

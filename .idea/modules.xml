@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/frontend-practice.iml" filepath="$PROJECT_DIR$/.idea/frontend-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-step-form.iml" filepath="$PROJECT_DIR$/multi-step-form.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-form.iml" filepath="$PROJECT_DIR$/simple-form.iml" />
+      <module fileurl="file://$PROJECT_DIR$/split-homepage.iml" filepath="$PROJECT_DIR$/split-homepage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-blog.iml" filepath="$PROJECT_DIR$/travel-blog.iml" />
     </modules>
   </component>
 </project>

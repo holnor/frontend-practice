@@ -32,7 +32,7 @@ input[type="checkbox"] {
 
 
 input[type="date"]::-webkit-calendar-picker-indicator {
-    filter: invert(1); /* Inverts the color, changing it to white */
+    filter: invert(1);
 }
 
 .acceptance {
