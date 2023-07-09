@@ -16,7 +16,7 @@ body{
 
 ul {
     list-style: none;
-    background: rgba(8, 28, 93, 0.7);
+    background: rgba(61, 84, 82, 0.8);
 }
 
 li {
@@ -39,14 +39,14 @@ a {
 
 .dropdown {
     width: 100%;
-    background: #081C5DB2;
+    background: rgba(61, 84, 82, 0.8);
     position: absolute;
     z-index: 999;
     display: none;
 }
 
 a:hover {
-    color: #ea6b86;
+    color: #E7A258;
 }
 
 li:hover ul.dropdown {
