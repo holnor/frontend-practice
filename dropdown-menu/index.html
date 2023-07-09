@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-<div class="header">
-    <button class="link">Information</button>
-    <a href="#" class="link">Pricing</a>
-    <button class="link">Login</button>
-</div>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">Options ▾</a>
+            <ul class="dropdown">
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+                <li><a href="#">Option 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</nav>
+
 </body>
 </html>

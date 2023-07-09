@@ -1,26 +1,54 @@
-body {
-    margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.header {
-    background-color: #F3F3F3;
-    display: flex;
-    align-items: baseline;
-    padding: .5rem;
-    gap: 1rem;
-}
-
-.link {
-    background: none;
-    border: none;
-    text-decoration: none;
-    color: #777;
-    font-family: inherit;
-    font-size: inherit;
-    cursor: pointer;
+* {
     padding: 0;
+    margin: 0;
+    font-family: 'Poppins', monospace;
 }
 
-.link:hover {
-    color: black;
+body{
+    background-image: url("https://images.unsplash.com/photo-1682686581854-5e71f58e7e3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+    background: rgba(8, 28, 93, 0.7);
+}
+
+li {
+    display: inline-block;
+    position: relative;
+}
+
+a {
+    display: block;
+    padding: 20px 25px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown {
+    width: 100%;
+    background: #081C5DB2;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+a:hover {
+    color: #ea6b86;
+}
+
+li:hover ul.dropdown {
+    display: block;
 }
