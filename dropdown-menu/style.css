@@ -14,9 +14,16 @@ body{
     min-height: 100vh;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+    background: rgba(61, 84, 82, 0.8);
+}
+
 ul {
     list-style: none;
-    background: rgba(61, 84, 82, 0.8);
 }
 
 li {
@@ -31,6 +38,24 @@ a {
     text-decoration: none;
     text-align: center;
     font-size: 20px;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: .4rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 21px;
+    width: 30px;
+}
+
+.bar{
+    background: #E7A258;
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .dropdown li {
@@ -51,4 +76,15 @@ a:hover {
 
 li:hover ul.dropdown {
     display: block;
+}
+
+@media (max-width: 766px){
+    .toggle-btn{
+        display: flex;
+    }
+
+    li {
+        display: none;
+    }
+
 }
