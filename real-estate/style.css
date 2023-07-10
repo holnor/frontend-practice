@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Poppins:wght@400;500&display=swap');
+
+:root{
+    --primary: #395cb3;
+    --secondary: #493034;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: rgba(57, 92, 179, 0.8);
+    width: 100vw;
+    height: 50px;
+}
+
+.toggle-menu{
+}
+
+.close {
+    background-color: var(--secondary) ;
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.close-left{
+    transform: rotate(45deg);
+}
+
+.close-right{
+    transform: rotate(135deg);
+
+}
+
+
+
+
+
+
+.img-bg{
+    background-image: url("https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.hero-container {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Montserrat Alternat', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 15rem;
+    color: #493034;
+    max-width: 20ch;
+    margin: auto;
+    line-height: 1.2;
+}
+
+span{
+    position: relative;
+    color: #fff;
+    max-width: 200px;
+    padding: 0 3px;
+}
+
+span::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    transform: scale(1.07, 1.05) skewX(-15deg);
+    background-image: linear-gradient(to top left, #395cb3, #83f6e1);
+}
+
+.btn-scroll{
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    color:#395cb3;
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    margin: 3rem auto 0;
+    border: 2px solid #395cb3;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.btn-scroll:hover{
+    border: 2px solid #395cb3;
+    border-radius: 10px;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+
+@media screen and (min-width: 700px){
+    .btn-scroll{
+        font-weight: 500;
+        border: none;
+        transition: all .1s linear;
+        cursor: pointer;
+    }
+
+    .btn-scroll:hover{
+        border: 2px solid #395cb3;
+        border-radius: 10px;
+        padding: 1rem;
+        font-weight: 700;
+    }
+
+
+}

@@ -101,3 +101,9 @@ Q.idea/sonarlint/securityhotspotstore/a/c/ac78907d674b8caeead66897c81571c2aab1ff
 Q.idea/sonarlint/securityhotspotstore/7/3/73f56be6e47574b8a31fc5214c145a3c06a8502d,3\b\3b9262f4d8ad66ba1d987f80df5d238ba9bc5dc9
 Å
 Q.idea/sonarlint/securityhotspotstore/0/0/001a58f07f47423fb4a74b8bf1debaae739bcf18,d\4\d44813a642be62c5ac588d798778ce31fa38af20
+J
+webshop-products/script.js,4\7\4751746f0cacea24ee99d8992116624ae9bc9e4c
+K
+webshop-products/index.html,7\f\7f1c1d410fbe27729baf2aa7e7c748be4112bb95
+J
+webshop-products/style.css,6\4\6427b85fb5aca1002af4b58216fc8ac353fadd6d
