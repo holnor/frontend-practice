@@ -97,14 +97,11 @@ li:hover ul.dropdown {
     ul{
         display: flex;
         flex-direction: column;
+        transition: .4s top;
     }
 
     nav ul{
         text-align: center;
-    }
-
-    .hidden {
-        display: none;
     }
 
     .navbar{
