@@ -115,7 +115,7 @@ h1 {
     color: #493034;
     max-width: 20ch;
     margin: auto;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 span {
@@ -161,8 +161,14 @@ span::after {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
+    h1{
+        padding-top: 8rem;
+    }
+
     .btn-scroll {
+        margin-top: 1.5rem;
+        text-decoration: underline;
         font-weight: 500;
         border: none;
         transition: all .1s linear;
@@ -174,6 +180,7 @@ span::after {
         border-radius: 10px;
         padding: 1rem;
         font-weight: 700;
+        text-decoration: none;
     }
 
 
