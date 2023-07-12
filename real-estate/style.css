@@ -151,7 +151,7 @@ body {
 h1 {
     font-size: 3rem;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 11rem;
     color: #493034;
     max-width: 20ch;
     margin: auto;
@@ -205,8 +205,10 @@ span::after {
 }
 
 @media screen and (min-width: 1000px) {
+
     h1{
         padding-top: 8rem;
+        font-size: 5rem;
     }
 
     .btn-scroll {
