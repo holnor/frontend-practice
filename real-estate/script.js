@@ -1,11 +1,14 @@
-const menuBtn = document.querySelector(".menu-btn");
-const middleBar = document.querySelector(".middle-bar");
-const navBar = document.querySelector(".navbar");
-const main = document.querySelector("main");
+const menuBtn = document.querySelector(".inner");
+const nav = document.querySelector(".outer");
+const barTop = document.querySelector(".top");
+const barMiddle = document.querySelector(".mid");
+const barBottom = document.querySelector(".bot");
+
 
 menuBtn.addEventListener('click', ()=>{
-    menuBtn.classList.toggle("open");
-    middleBar.classList.toggle("hidden");
-    navBar.classList.toggle("active");
-    main.classList.toggle("overlay")
+    nav.classList.toggle("active");
+    barTop.classList.toggle("closed");
+    barMiddle.classList.toggle("closed");
+    barBottom.classList.toggle("closed");
+
 })
