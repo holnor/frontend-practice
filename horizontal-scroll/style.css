@@ -1,0 +1,49 @@
+.media-scroller {
+  display: grid;
+  grid-auto-flow: column;
+  gap: .5rem;
+  grid-auto-columns: 41%;
+  padding: 0 .5rem .5rem;
+
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+
+.media-element {
+  display: grid;
+  grid-template-rows: min-content;
+  padding: .5rem;
+  border-radius: 5px;
+  gap: .5rem;
+}
+
+.media-element > img {
+  inline-size: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: .5rem;
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+/* general styling */
+.container {
+  inline-size: min(100% - 4rem, 70rem);
+  margin-inline: auto;
+}
+
+.flow {
+  display: grid;
+  gap: .5rem;
+}
+
+.section-title {
+  padding-inline-start: 1.75rem;
+  margin-block: 4rem .5rem;
+}
