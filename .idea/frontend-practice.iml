@@ -6,5 +6,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="7ab30b19d9" level="application" />
+    <orderEntry type="library" name="open-props" level="application" />
   </component>
 </module>
