@@ -15,14 +15,13 @@ $form-min-height: 480px;
   flex-direction: column;
   }
 
-.a{
+.auth-form{
   min-height: $form-min-height;
   width: $form-width;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .side-panel{
@@ -32,7 +31,6 @@ $form-min-height: 480px;
   align-items: center;
   justify-content: flex-start;
   padding: 2rem;
-
   text-align: center;
   background: #72e383;
   background: -webkit-linear-gradient(to right, #72e3ce, #72e383);
@@ -42,53 +40,6 @@ $form-min-height: 480px;
   background-position: 0 0;
   color: #ffffff;
 }
-
-
-
-//.sign-in-container {
-//  width: 50%;
-//}
-//
-//.sign-up-container {
-//  left: 0;
-//  width: 50%;
-//  opacity: 0;
-//  z-index: 1;
-//}
-//
-//.overlay-container {
-//  position: absolute;
-//  top: 0;
-//  left: 50%;
-//  width: 50%;
-//  height: 100%;
-//  overflow: hidden;
-//  transition: transform 0.6s ease-in-out;
-//  z-index: 100;
-//}
-//
-//
-//.overlay {
-//  background: #72e383;
-//  background: -webkit-linear-gradient(to right, #72e3ce, #72e383);
-//  background: linear-gradient(to right, #72e3ce, #72e383);
-//  background-repeat: no-repeat;
-//  background-size: cover;
-//  background-position: 0 0;
-//  color: #ffffff;
-//  position: relative;
-//}
-//
-//.overlay-panel {
-//  display: flex;
-//  align-items: center;
-//  justify-content: center;
-//  flex-direction: column;
-//  padding: 0 40px;
-//  text-align: center;
-//  height: 100%;
-//  width: 50%;
-//}
 
 .social-container {
   margin: 20px 0;
@@ -105,4 +56,17 @@ $form-min-height: 480px;
   margin: 0 5px;
   height: 40px;
   width: 40px;
+}
+
+@media screen and (min-width: 914px){
+  .auth-container {
+    width: $form-width * 2;
+    flex-direction: row;
+  }
+
+  .side-panel{
+    width: $form-width;
+    min-height: $form-min-height;
+    justify-content: center;
+  }
 }
