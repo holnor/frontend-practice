@@ -8,6 +8,7 @@ $theme-colors: (
   "light": #f8f9fa,
   "dark": #343a40
 );
+$focus-ring-color: rgba(var(--bs-success-rgb), .25);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -59,13 +60,20 @@ form {
   text-align: center;
 }
 
-input {
-  background-color: #eee;
+input,
+textarea,
+select
+{
+  background-color: #fafafa;
   border: none;
   padding: 12px 15px;
   margin: 8px 0;
   width: 100%;
   border-radius: 10px;
+}
+
+select{
+
 }
 
 h1 {

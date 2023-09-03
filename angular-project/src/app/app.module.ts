@@ -8,6 +8,7 @@ import { LoginComponent } from './components/authentication/login/login.componen
 import { SignupComponent } from './components/authentication/signup/signup.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { CreateRecipeComponent } from './components/create-recipe/create-recipe.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     LoginComponent,
     SignupComponent,
     NavbarComponent,
+    CreateRecipeComponent,
   ],
   imports: [
     BrowserModule,
