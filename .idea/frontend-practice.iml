@@ -8,4 +8,7 @@
     <orderEntry type="library" name="7ab30b19d9" level="application" />
     <orderEntry type="library" name="open-props" level="application" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="5539eaaf-f44b-4fcc-a5c2-f2ee60720d84" />
+  </component>
 </module>

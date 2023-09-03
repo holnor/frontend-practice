@@ -5,4 +5,7 @@
     <content url="file://$MODULE_DIR$/split-homepage" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="6451db47-efc6-470e-aea5-02e1ac892575" />
+  </component>
 </module>

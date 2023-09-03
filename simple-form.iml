@@ -5,4 +5,7 @@
     <content url="file://$MODULE_DIR$/simple-form" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="4e0c4af3-c7da-42c9-84ea-02b50e00e689" />
+  </component>
 </module>

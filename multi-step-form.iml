@@ -5,4 +5,7 @@
     <content url="file://$MODULE_DIR$/multi-step-form" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="2f9f5627-beca-46ba-b7bd-9dbc17f7e519" />
+  </component>
 </module>

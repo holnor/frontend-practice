@@ -1,0 +1,108 @@
+$form-width: 400px;
+$form-min-height: 480px;
+
+.auth-container {
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+  width: $form-width;
+  max-width: 100%;
+  min-height: $form-min-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+
+.a{
+  min-height: $form-min-height;
+  width: $form-width;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.side-panel{
+  width: $form-width;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+
+  text-align: center;
+  background: #72e383;
+  background: -webkit-linear-gradient(to right, #72e3ce, #72e383);
+  background: linear-gradient(to right, #72e3ce, #72e383);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+}
+
+
+
+//.sign-in-container {
+//  width: 50%;
+//}
+//
+//.sign-up-container {
+//  left: 0;
+//  width: 50%;
+//  opacity: 0;
+//  z-index: 1;
+//}
+//
+//.overlay-container {
+//  position: absolute;
+//  top: 0;
+//  left: 50%;
+//  width: 50%;
+//  height: 100%;
+//  overflow: hidden;
+//  transition: transform 0.6s ease-in-out;
+//  z-index: 100;
+//}
+//
+//
+//.overlay {
+//  background: #72e383;
+//  background: -webkit-linear-gradient(to right, #72e3ce, #72e383);
+//  background: linear-gradient(to right, #72e3ce, #72e383);
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//  background-position: 0 0;
+//  color: #ffffff;
+//  position: relative;
+//}
+//
+//.overlay-panel {
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  flex-direction: column;
+//  padding: 0 40px;
+//  text-align: center;
+//  height: 100%;
+//  width: 50%;
+//}
+
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}

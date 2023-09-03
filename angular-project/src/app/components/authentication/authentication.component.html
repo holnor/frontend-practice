@@ -1,0 +1,20 @@
+<div class="auth-container">
+  <div class="a">
+    <app-signup *ngIf="authType=='Signup'" @easeInLeft></app-signup>
+    <app-login *ngIf="authType=='Login'" @easeInRight></app-login>
+  </div>
+  <div class="side-panel">
+    <div class="side-panel-content" *ngIf="authType == 'Login'" @easeInLeft>
+      <h1>No account yet?</h1>
+      <p>Enter your personal details and start journey with us</p>
+      <button class="ghost" (click)="setAuthType('Signup')">Sign Up</button>
+    </div>
+  <div class="side-panel-content" *ngIf="authType == 'Signup'" @easeInRight>
+    <h1>Welcome Back!</h1>
+    <p>To keep connected with us please login with your personal info</p>
+    <button class="ghost" (click)="setAuthType('Login')">Login</button>
+  </div>
+  </div>
+</div>
+
+
