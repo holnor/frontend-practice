@@ -1,3 +1,5 @@
+@import 'animate.css/animate.min.css';
+
 $theme-colors: (
   "primary": #65e087,
   "secondary": #5d9edc,
@@ -64,7 +66,7 @@ input,
 textarea,
 select
 {
-  background-color: #fafafa;
+  background-color: #f2f2f2;
   border: none;
   padding: 12px 15px;
   margin: 8px 0;
