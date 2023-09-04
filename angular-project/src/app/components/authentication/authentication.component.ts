@@ -10,15 +10,16 @@ import {animate, style, transition, trigger} from "@angular/animations";
       'easeInLeft', [
         transition('void => *', [
           style({
-            transform: 'translateX(-100%)'}),
-          animate(200)
+            opacity: '0%',
+            transform: 'translateX(100%)'}),
+          animate(300)
         ]),
       ]),
     trigger(
-      'easeInRight', [
+      'fadeIn', [
         transition('void => *', [
-          style({transform: 'translateX(100%)'}),
-          animate(200)
+          style({opacity: '0%'}),
+          animate(300)
         ])
       ]
     )
