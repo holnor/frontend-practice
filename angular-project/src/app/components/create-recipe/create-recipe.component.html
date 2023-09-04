@@ -2,7 +2,7 @@
   <h1>New Recipe</h1>
   <form class="create-recipe-form">
     <div class="input-group mb-3">
-      <input type="text" class="focus-ring" placeholder="Title" aria-label="Username" aria-describedby="basic-addon1">
+      <input type="text" class="focus-ring" placeholder="Title" aria-label="DishTitle" aria-describedby="basic-addon1">
     </div>
     <select aria-label="Default select example">
       <option selected>Open this select menu</option>
@@ -37,9 +37,15 @@
     <div class="input-group">
       <textarea class="focus-ring" aria-label="With textarea" placeholder="Description"></textarea>
     </div>
+    <div class="input-group">
+      <input type="file" class="focus-ring" aria-label="With textarea" placeholder="Description"/>
+    </div>
+
+
+
     <div class="btn-group">
       <button type="submit">Create</button>
-      <button type="button" class="bg-warning">Clear</button>
+      <button type="button" class="bg-warning btn-clear">Clear</button>
     </div>
 
 
